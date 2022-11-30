@@ -1,6 +1,6 @@
+import BoyerMooreStringMatch from './BoyerMoore';
 import BruteForceStringMatch from './BruteForce';
 import HorspoolStringMatch from './Horspool';
-import ShiftTable from './ShiftTable';
 
 console.log('Exact string match');
 
@@ -13,3 +13,8 @@ console.log('Horspool\'s algorithm');
 console.log(HorspoolStringMatch('Hello World!', 'World'));
 console.log(HorspoolStringMatch('Hello World!', 'world!'));
 console.log(HorspoolStringMatch('Run and track unit test results', 'unit'));
+
+console.log('Boyer-Moore\'s algorithm');
+console.log(BoyerMooreStringMatch('Hello World!', 'World'));
+console.log(BoyerMooreStringMatch('Hello World!', 'world!'));
+console.log(BoyerMooreStringMatch('Run and track unit test results', 'unit'));

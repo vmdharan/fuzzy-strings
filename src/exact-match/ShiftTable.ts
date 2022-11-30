@@ -1,4 +1,4 @@
-interface ShiftTableResultType {
+export interface ShiftTableResultType {
     [key: string]: number;
 }
 
