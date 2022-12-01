@@ -5,6 +5,7 @@ String search and Fuzzy String Matching algorithms.
 Brute force method  
 Horspool's algorithm  
 Boyer-Moore algorithm  
+Rabin-Karp algorithm  
 
 ## Fuzzy string matching
 Hamming distance  
