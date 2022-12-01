@@ -2,12 +2,13 @@
 String search and Fuzzy String Matching algorithms.
 
 ## Exact string matching
-Brute force method
-Horspool's algorithm
-Boyer-Moore algorithm
+Brute force method  
+Horspool's algorithm  
+Boyer-Moore algorithm  
 
 ## Fuzzy string matching
-Hamming distance
+Hamming distance  
+Levenshtein distance  
 
 # Running code locally
 1. Type the 'gulp' command in the project root directory to build. (https://gulpjs.com/)
